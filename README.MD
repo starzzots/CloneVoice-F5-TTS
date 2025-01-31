@@ -1,13 +1,16 @@
 firstly this is the original repo im using on this project if anything goes wrong refer to this https://github.com/swivid/F5-TTS/
 
-- https://www.youtube.com/watch?v=GmketyZW2c4&ab_channel=JarodsJourney this video is for the people who dont like walls of text to figure this out <3
-pip install -r requirements.txt so you can use helper scripts I made. 
+
+https://github.com/JarodMica/F5-TTS this is the repo used in youtube. Repo is most up to date 
+- https://www.youtube.com/watch?v=GmketyZW2c4&ab_channel=JarodsJourney this video is for the people who dont like walls of text to figure this out <3 
+
+pip install -r requirements.txt so you can use helper scripts I made if you dont want to use them you can skip this part 
 
 -strip_audio.py is a script to help strip a video into just audio form so you can use to train on F5-TTS faster
-
 -combine.py combines multiple audio files you create from the F5-TTS model into one audio file
 
--sample_clone_of_me.wave is a sample of my voice cloned and then combined together to make one long script as one. I noticed the F5-TTS does really well at getting the voice clone better when you make it say less at a time. Also you can make different emotions for each sentence before combining making the clone of you feel more alive.
+-sample_clone_of_me.wave is a sample of my voice clone snippets and then combines them together to make one long audio file. 
+I noticed the F5-TTS does really well at getting the voice clone better when you make it say less at a time. Also you can make different emotions for each sentence before combining making the clone of you feel more alive.
 
 First) go to https://github.com/swivid/F5-TTS/ and go through there set up of F5-TTS if you're too lazy I got you 
 
@@ -146,7 +149,3 @@ If our work and codebase is useful for you, please cite as:
 
 License
 Our code is released under MIT License. The pre-trained models are licensed under the CC-BY-NC license due to the training data Emilia, which is an in-the-wild dataset. Sorry for any inconvenience this may cause.
-
-f5-tts_infer-gradio
-
-http://127.0.0.1:7860
