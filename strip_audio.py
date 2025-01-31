@@ -2,10 +2,10 @@
 """f5-tts_infer-gradio"""
 "http://127.0.0.1:7860"
 from moviepy import VideoFileClip
-
+path = "\\Users\\Kyle\\Documents\\Awillremove\\" # change path for you
 # Input and output file paths
-input_file = "C:\\Users\\Kyle\\Documents\\Awillremove\\WIN_20250116_12_31_19_Pro.mp4"
-output_file = "C:\\Users\\Kyle\\Documents\\Awillremove\\output.wav"
+input_file = "{path}WIN_20250116_12_31_19_Pro.mp4"
+output_file = "{path}output.wav"
 
 # Load video file
 video = VideoFileClip(input_file)

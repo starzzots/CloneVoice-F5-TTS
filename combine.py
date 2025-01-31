@@ -1,12 +1,14 @@
 from pydub import AudioSegment
 
+path = "c:\\Users\\Kyle\\Music\\space_ai\\" # change this file path for your path
+
 def combine_wav_files(output_file, file_prefix, start, end):
     # Initialize the combined audio with the first file
-    combined = AudioSegment.from_wav(f"c:\\Users\\Kyle\\Music\\space_ai\\{file_prefix}{start}.wav")
-    
+    combined = AudioSegment.from_wav(f"{path}{file_prefix}{start}.wav")
+
     # Loop through the remaining files and combine them
     for i in range(start + 1, end + 1):
-        file_name = f"c:\\Users\\Kyle\\Music\\space_ai\\{file_prefix}{i}.wav"
+        file_name = f"{path}{file_prefix}{i}.wav"
         print(f"Processing: {file_name}")
         audio = AudioSegment.from_wav(file_name)
         combined += audio

@@ -2,7 +2,7 @@ import tarfile
 import os
 
 # Define the path to the tar.bz2 file and the extraction directory
-file_path = r"C:\Users\Kyle\Documents\Awillremove\LJSpeech-1.1.tar.bz2"
+file_path = r"C:\Users\Kyle\Documents\Awillremove\LJSpeech-1.1.tar.bz2" #put your file path in
 extraction_dir = r"C:\Users\Kyle\Documents\Awillremove"
 
 # Open the tar.bz2 file
