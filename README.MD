@@ -1,7 +1,7 @@
-firstly this is the original repo im using on this project if anything goes wrong refer to this https://github.com/swivid/F5-TTS/
+firstly this is the original repo im using on this project if anything goes wrong refer to this https://github.com/swivid/F5-TTS/ Repo is most up to date
 
 
-https://github.com/JarodMica/F5-TTS this is the repo used in youtube. Repo is most up to date 
+https://github.com/JarodMica/F5-TTS this is the repo used in youtube. 
 - https://www.youtube.com/watch?v=GmketyZW2c4&ab_channel=JarodsJourney this video is for the people who dont like walls of text to figure this out <3 
 
 pip install -r requirements.txt so you can use helper scripts I made if you dont want to use them you can skip this part 
